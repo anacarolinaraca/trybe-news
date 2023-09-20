@@ -1,0 +1,55 @@
+.containerLatestNewsInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleNews {
+  width: 540px;
+  height: 94px;
+  font-family: IBM Plex Serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.newsIntroduction {
+  width: 500px;
+  height: 94px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.containerTimeAndButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsTime {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.newsButton {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #05D465;
+  border: 0;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+hr {
+  border-color : #FCFCFC;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.newsButtonFavorite {
+  margin-left: 519px;
+}
+
+.newsLink {
+  align-self: center;
+}
