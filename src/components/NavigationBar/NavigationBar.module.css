@@ -25,3 +25,21 @@
 .imgVetor img {
   padding: 1px;
 }
+
+@media screen and ( max-width : 850px ) {  
+  .navLink a {
+    font-size: 13px;
+    margin: 10px;
+  }
+  
+  .imgVetor {
+    display: flex;
+  }
+
+  .imgVetor img:nth-child(1) {
+    width: 16px;
+  }
+  .imgVetor img:nth-child(2) {
+    width: 16px;
+  }
+}

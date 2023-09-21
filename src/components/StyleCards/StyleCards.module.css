@@ -6,7 +6,7 @@
 
 .titleNews {
   width: 540px;
-  height: 94px;
+  height: 80px;
   font-family: IBM Plex Serif;
   font-weight: 600;
   font-size: 32px;
@@ -14,7 +14,7 @@
 
 .newsIntroduction {
   width: 500px;
-  height: 94px;
+  height: 100px;
   font-family: Poppins;
   font-weight: 400;
   font-size: 20px;
@@ -52,4 +52,30 @@ hr {
 
 .newsLink {
   align-self: center;
+}
+
+@media screen and ( max-width : 850px ) {
+  .containerLatestNewsInfos, .titleNews, .newsIntroduction {
+    width: 295px;
+  }
+  .titleNews {
+    font-size: 22px;
+  }
+  
+  .newsIntroduction {
+    font-size: 15px;
+  }
+  
+  .newsTime {
+    font-size: 15px;
+  }
+  
+  .newsButton {
+    padding: 8px;
+    font-size: 12px;
+  }
+  
+  .newsButtonFavorite {
+    margin-left: 270px;
+  }
 }

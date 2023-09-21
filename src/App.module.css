@@ -11,3 +11,9 @@ html {
 .content {
   padding: 10%;
 }
+
+@media screen and (max-width: 850px) {
+  .content {
+    padding: 5%;
+  }
+}

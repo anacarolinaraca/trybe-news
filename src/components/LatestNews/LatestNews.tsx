@@ -39,7 +39,7 @@ const LatestNews = ({ news }: NewsItemProps) => {
           alt='Imagem da notícia'
         />
       </section>
-      <section>
+      <section className={style.containerTextLatestNews}>
         <div className={style.containerNewsAndButtonFavorite}>
           <p className={style.textCurrentNews}>Notícia mais recente</p>
           <ButtonFavoriteNews id={isLatestNews.id} />

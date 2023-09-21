@@ -26,4 +26,25 @@
 .moreNewsButton {
   color: #c31815;
   border: 0;
+  font-size: 20px;
+}
+
+@media screen and ( max-width : 850px ) {
+  .itemsList {
+    padding-inline-start: 0px;
+  }
+
+  .list{
+    margin: 0;
+    width: 300px;
+  }
+  
+  .containerList {
+    justify-content: start;
+  }
+
+  .moreNewsButtonContainer {
+      width: 150px;
+      height: 35px;
+  } 
 }
