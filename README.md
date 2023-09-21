@@ -1,6 +1,6 @@
 # Projeto Trybe News
 
-Este projeto possibilita o usuário acessar as notícias mais recentes do Instituto Brasileiro de Geografia e Estatística (IBGE), permite também filtrar pelas notícias ou release e favoritar a notícia para ver mais tarde. Ele foi desenvolvido utilizando o React, TypeScript, Context API e Vite como ferramentas principais e o uso de CSS Modules foi usado para melhor organização dos estilos.
+Este projeto possibilita o usuário acessar as notícias mais recentes do Instituto Brasileiro de Geografia e Estatística (IBGE), oferece a opção de filtrar as notícias por categorias, como 'Mais recentes', 'Notícias' e 'Release', bem como a possibilidade de favoritar uma notícia para visualizá-la posteriormente. Ele foi desenvolvido utilizando o React, TypeScript, Context API e Vite como ferramentas principais e o uso de CSS Modules foi usado para melhor organização dos estilos.
 
 ## Tecnologias Utilizadas
 
