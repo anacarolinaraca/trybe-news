@@ -47,4 +47,8 @@
       width: 150px;
       height: 35px;
   } 
+
+  .moreNewsButton {
+    font-size: 15px;
+  }
 }
