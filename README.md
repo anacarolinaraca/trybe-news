@@ -42,3 +42,6 @@ npm install
 ```text
 npm run dev
 ``` 
+## Deploy
+
+Você pode acessar as notícias clicando [aqui](https://trybe-news-gamma.vercel.app/).
