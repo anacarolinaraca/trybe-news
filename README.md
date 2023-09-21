@@ -1,27 +1,44 @@
-# React + TypeScript + Vite
+# Projeto Trybe News
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto possibilita o usuário acessar as notícias mais recentes do Instituto Brasileiro de Geografia e Estatística (IBGE), oferece a opção de filtrar as notícias por categorias, como 'Mais recentes', 'Notícias' e 'Release', bem como a possibilidade de favoritar uma notícia para visualizá-la posteriormente. Ele foi desenvolvido utilizando o React, TypeScript, Context API e Vite como ferramentas principais e o uso de CSS Modules foi usado para melhor organização dos estilos.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O programa foi desenvolvido utilizando as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+- [React.js](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Context API](https://react.dev/reference/react/useContext)
+- [Vite](https://vitejs.dev/)
+- [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades
+O programa oferece as seguintes funcionalidades:
 
-- Configure the top-level `parserOptions` property like this:
+- Os usuários têm a capacidade de visualizar as notícias mais atualizadas do IBGE.
+- Filtrar as notícias por categoria, incluindo opções como 'Mais recentes', 'Release' e 'Notícias'.
+- Ao clicar em uma notícia, os usuários podem acessar mais detalhes sobre ela.
+- Os usuários podem verificar o tempo decorrido desde a publicação de cada notícia.
+- Os usuários podem marcar como favoritas as notícias de sua escolha.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Como Usar
+1. Clone o repositório:
+
+```text
+git clone git@github.com:anacarolinaraca/trybe-news.git
 ```
+2. Entre na pasta do projeto:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```text
+cd trybe-news
+```
+3. Instale as dependências do projeto:
+
+```text
+npm install
+```
+4. Rode a aplicação utilizando:
+
+```text
+npm run dev
+``` 
